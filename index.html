@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!--PAGE INFO-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--ICONS-->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!--Swiper-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="style.css" />
+    ,
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <!--FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <!--class="scroll"-->
+      <nav class="container">
+        <!--Remover show para ver a pagina sem o menu mobile-->
+        <a class="logo" href="#">Beauty<span>salon</span>.</a>
+        <!--MENU-->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contatos</a></li>
+          </ul>
+        </div>
+        <!--/MENU-->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!--HOME-->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="Mulher sorrindo penteando outra mulher"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Saúde natural para os seus cabelos</h2>
+            <p>
+              Um salão exclusivo em São Paulo, especializado em tratamento
+              naturais.
+            </p>
+            <a class="button" href="#">Agendar horário</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--ABOUT-->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"
+              alt="3 mulheres sorrindo"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              repellat possimus recusandae quo voluptatem dolore alias modi
+              pariatur. Porro rerum cumque, neque recusandae laborum facilis qui
+              aspernatur exercitationem eveniet sapiente.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
+              tenetur odio incidunt suscipit reiciendis hic fugit quos, nobis
+              soluta non nemo consectetur adipisci unde, ab recusandae quibusdam
+              iste laborum ipsa.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+              reiciendis earum soluta dolores impedit necessitatibus delectus
+              odit dolorum labore nobis, error doloremque eaque exercitationem
+              corporis voluptatem, enim ratione sint temporibus!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+      <!--SERVICE-->
+      <section class="section" id="services">
+        <div class="container">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, o <strong>Beautysalon</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Doloremque illo corporis dolores est voluptates.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Doloremque illo corporis dolores est voluptates.
+              </p>
+            </div>
+
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Doloremque illo corporis dolores est voluptates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!--TESTIMONIAL-->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aut, non. Animi magnam debitis kkhkjhk kh kh kh jkh kjkjkh
+                    kjh kjh.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/91.jpg"
+                      alt="Foto da Lima"
+                    />
+                    Wanessa Lima
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aut, non. Animi magnam debitis eveniet officia iste soluta
+                    ex aperiam
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/65.jpg"
+                      alt="Foto da Vasconcellos"
+                    />
+                    Wanessa vasconcellos
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aut, non. Animi magnam debitis eveniet officia iste soluta
+                    ex aperiam
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/21.jpg"
+                      alt="Foto da Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!--CONTACTS-->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <div class="h2 title">Entre em contato com a gente!</div>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=5548991431545&text=Oi! Gostaria de Agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 11 99845-6754</li>
+              <li><i class="icon-map-pin"></i> R. Nereu Ramos, 1562</li>
+              <li><i class="icon-mail"></i> edvaldofutsena@hotmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+    <!--Footer-->
+
+    <footer>
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">Beauty<span>salon</span>.</a>
+          <p>©2021 Beautysalon.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social">
+          <a href="https://instagram.com" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="icon-facebook"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank">
+            <i class="icon-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+    <!--Swiper-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--Scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--MAIN.JS-->
+    <script src="main.js"></script>
+  </body>
+</html>
