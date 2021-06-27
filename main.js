@@ -39,7 +39,7 @@ const swiper = new Swiper('.swiper-container', {
     el: '.swiper-pagination'
   },
   mousewheel: true,
-  keyboard: true
+  keyboard: true,
   breakpoints: {
     767: {
       slidesPerView: 2,
@@ -58,10 +58,12 @@ const scrollReveal = ScrollReveal({
 
 scrollReveal.reveal(
   `#home .image, #home .text,
-   #about .image, #about .text,
-   #services header, #services .card,
-   #testimonials header, #testimonial .testimonials #contact .text, #contact .links, footer .brand, footer, .social
-   `,
+  #about .image, #about .text,
+  #services header, #services .card,
+  #testimonials header, #testimonials .testimonials
+  #contact .text, #contact .links,
+  footer .brand, footer .social
+  `,
   { interval: 100 }
 )
 
